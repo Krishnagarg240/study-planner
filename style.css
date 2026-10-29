@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f5fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #354a75;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+section h2 {
+    color: #354a75;
+    margin-bottom: 15px;
+}
+
+.welcome {
+    background-color: #e2eaff;
+}
+
+.subject-card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f0f3ff;
+    padding: 15px;
+    margin: 5px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.subject-card h3 {
+    color: #354a75;
+    margin-bottom: 5px;
+}
+
+.task {
+    display: flex;
+    gap: 20px;
+    padding: 12px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.task span {
+    color: #354a75;
+    font-weight: bold;
+    min-width: 90px;
+}
+
+.goals ul {
+    padding-left: 22px;
+}
+
+.goals li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #354a75;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0 12px;
+    }
+
+    .subject-card {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .task {
+        gap: 10px;
+    }
+}
